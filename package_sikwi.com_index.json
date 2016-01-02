@@ -1,0 +1,45 @@
+{
+  "packages": [
+    {
+      "name": "Sikwi Boards",
+      "maintainer": "Sikwi.com",
+      "websiteURL": "http://www.sikwi.com",
+      "email": "info@sikwi.com",
+      "help": {
+        "online": "http://www.sikwi.com/help/boards"
+      },
+      "platforms": [
+        {
+          "name": "Sikwi",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "http://www.sikwi.com/help/boards"
+          },
+          "url": "https://github.com/sikwi/ArduinoBoards/blob/master/boards.zip?raw=true",
+          "archiveFileName": "boards.zip",
+          "checksum": "SHA-256:d96d88f1eae6fae774e3a1a60e4885446c198f2dc131337811c99551d11401aa",
+          "size": "1278",
+          "boards": [
+            {"name": "Sikwi Mini"},
+            {"name": "Sikwi One"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
