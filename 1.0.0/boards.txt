@@ -18,7 +18,7 @@ sikwiOne.bootloader.file=sikwi/optiboot_atmega328_16Mhz.hex
 
 sikwiOne.build.mcu=atmega328p
 sikwiOne.build.f_cpu=16000000L
-sikwiOne.build.board=AVR_UNO
+sikwiOne.build.board=AVR_SIKWIONE
 sikwiOne.build.core=arduino:arduino
 sikwiOne.build.variant=arduino:standard
 
@@ -41,5 +41,6 @@ SikwiMini.bootloader.lock_bits=0x2F
 
 SikwiMini.build.mcu=atmega328p
 SikwiMini.build.f_cpu=8000000L
+SikwiMini.build.board=AVR_SIKWIMINI
 SikwiMini.build.core=arduino:arduino
 SikwiMini.build.variant=arduino:standard
